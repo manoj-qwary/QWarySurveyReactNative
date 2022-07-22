@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "qwary",
+    "slug": "qwary",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "qwary"
+}
