@@ -291,6 +291,8 @@ dependencies {
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"
     implementation 'androidx.appcompat:appcompat:1.4.2'
+    implementation 'org.dmfs:lib-recur:0.12.2'
+
     implementation 'com.google.android.material:material:1.4.0'// From node_modules
 
     def isGifEnabled = (findProperty('expo.gif.enabled') ?: "") == "true";

@@ -3,10 +3,14 @@
     package="com.qwary">
 
     <uses-permission android:name="android.permission.INTERNET" /> <!-- OPTIONAL PERMISSIONS, REMOVE WHATEVER YOU DO NOT NEED -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.VIBRATE" /> <!-- These require runtime permissions on M -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- END OPTIONAL PERMISSIONS -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+
     <queries>
 
         <!-- Support checking for http(s) links via the Linking API -->
@@ -45,6 +49,34 @@
         <activity
             android:name="com.facebook.react.devsupport.DevSettingsActivity"
             android:exported="false" />
+
+        <activity
+            android:name=".survey.activity.SurveyActivity"
+            android:exported="true"
+            android:theme="@style/FullscreenTheme" />
+
+        <receiver android:name=".survey.notification.NotificationPublisher" />
+
+        <receiver
+            android:name=".survey.notification.BootNotifyMe"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".survey.notification.ActionReceiver"
+            android:enabled="true"
+            android:exported="true" />
+        <receiver
+            android:name=".survey.notification.DeletePendingIntent"
+            android:enabled="true"
+            android:exported="true" />
+
     </application>
 
 </manifest>
