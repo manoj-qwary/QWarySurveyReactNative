@@ -10,6 +10,14 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2DC77BB028A1ADCF00B835CC /* QWScheduleConfigurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC77BA928A1ADCE00B835CC /* QWScheduleConfigurations.swift */; };
+		2DC77BB128A1ADCF00B835CC /* QWSurveyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC77BAA28A1ADCE00B835CC /* QWSurveyDelegate.swift */; };
+		2DC77BB228A1ADCF00B835CC /* QWSurveyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC77BAB28A1ADCE00B835CC /* QWSurveyRequest.swift */; };
+		2DC77BB328A1ADCF00B835CC /* NotificationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC77BAC28A1ADCF00B835CC /* NotificationsManager.swift */; };
+		2DC77BB428A1ADCF00B835CC /* QWSurvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC77BAD28A1ADCF00B835CC /* QWSurvey.swift */; };
+		2DC77BB528A1ADCF00B835CC /* QWSurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC77BAE28A1ADCF00B835CC /* QWSurveyViewController.swift */; };
+		2DC77BB628A1ADCF00B835CC /* QWSurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC77BAF28A1ADCF00B835CC /* QWSurveyView.swift */; };
+		2DC77BBA28A1AF6700B835CC /* RCTQwarySurveyModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC77BB928A1AF6700B835CC /* RCTQwarySurveyModule.m */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
 		96905EF65AED1B983A6B3ABC /* libPods-qwary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-qwary.a */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
@@ -24,6 +32,16 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = qwary/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = qwary/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = qwary/main.m; sourceTree = "<group>"; };
+		2DC77BA428A19FD900B835CC /* Qwary-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Qwary-Bridging-Header.h"; sourceTree = "<group>"; };
+		2DC77BA928A1ADCE00B835CC /* QWScheduleConfigurations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QWScheduleConfigurations.swift; sourceTree = "<group>"; };
+		2DC77BAA28A1ADCE00B835CC /* QWSurveyDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QWSurveyDelegate.swift; sourceTree = "<group>"; };
+		2DC77BAB28A1ADCE00B835CC /* QWSurveyRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QWSurveyRequest.swift; sourceTree = "<group>"; };
+		2DC77BAC28A1ADCF00B835CC /* NotificationsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsManager.swift; sourceTree = "<group>"; };
+		2DC77BAD28A1ADCF00B835CC /* QWSurvey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QWSurvey.swift; sourceTree = "<group>"; };
+		2DC77BAE28A1ADCF00B835CC /* QWSurveyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QWSurveyViewController.swift; sourceTree = "<group>"; };
+		2DC77BAF28A1ADCF00B835CC /* QWSurveyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QWSurveyView.swift; sourceTree = "<group>"; };
+		2DC77BB828A1AF6700B835CC /* RCTQwarySurveyModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTQwarySurveyModule.h; sourceTree = "<group>"; };
+		2DC77BB928A1AF6700B835CC /* RCTQwarySurveyModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTQwarySurveyModule.m; sourceTree = "<group>"; };
 		58EEBF8E8E6FB1BC6CAF49B5 /* libPods-qwary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-qwary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C2E3173556A471DD304B334 /* Pods-qwary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qwary.debug.xcconfig"; path = "Target Support Files/Pods-qwary/Pods-qwary.debug.xcconfig"; sourceTree = "<group>"; };
 		7A4D352CD337FB3A3BF06240 /* Pods-qwary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qwary.release.xcconfig"; path = "Target Support Files/Pods-qwary/Pods-qwary.release.xcconfig"; sourceTree = "<group>"; };
@@ -48,6 +66,7 @@
 		13B07FAE1A68108700A75B9A /* qwary */ = {
 			isa = PBXGroup;
 			children = (
+				2DC77B9E28A19F6900B835CC /* QWarySurveyiOS */,
 				BB2F792B24A3F905000567C9 /* Supporting */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -67,6 +86,39 @@
 				58EEBF8E8E6FB1BC6CAF49B5 /* libPods-qwary.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DC77B9528A19E1B00B835CC /* QWarySurveySDK */ = {
+			isa = PBXGroup;
+			children = (
+				2DC77BAC28A1ADCF00B835CC /* NotificationsManager.swift */,
+				2DC77BA928A1ADCE00B835CC /* QWScheduleConfigurations.swift */,
+				2DC77BAD28A1ADCF00B835CC /* QWSurvey.swift */,
+				2DC77BAA28A1ADCE00B835CC /* QWSurveyDelegate.swift */,
+				2DC77BAB28A1ADCE00B835CC /* QWSurveyRequest.swift */,
+				2DC77BAF28A1ADCF00B835CC /* QWSurveyView.swift */,
+				2DC77BAE28A1ADCF00B835CC /* QWSurveyViewController.swift */,
+			);
+			path = QWarySurveySDK;
+			sourceTree = "<group>";
+		};
+		2DC77B9E28A19F6900B835CC /* QWarySurveyiOS */ = {
+			isa = PBXGroup;
+			children = (
+				2DC77BB728A1AF4000B835CC /* RCTBridgingObjC */,
+				2DC77BA428A19FD900B835CC /* Qwary-Bridging-Header.h */,
+				2DC77B9528A19E1B00B835CC /* QWarySurveySDK */,
+			);
+			path = QWarySurveyiOS;
+			sourceTree = "<group>";
+		};
+		2DC77BB728A1AF4000B835CC /* RCTBridgingObjC */ = {
+			isa = PBXGroup;
+			children = (
+				2DC77BB828A1AF6700B835CC /* RCTQwarySurveyModule.h */,
+				2DC77BB928A1AF6700B835CC /* RCTQwarySurveyModule.m */,
+			);
+			path = RCTBridgingObjC;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -284,9 +336,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DC77BB628A1ADCF00B835CC /* QWSurveyView.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				2DC77BB328A1ADCF00B835CC /* NotificationsManager.swift in Sources */,
+				2DC77BB028A1ADCF00B835CC /* QWScheduleConfigurations.swift in Sources */,
+				2DC77BB128A1ADCF00B835CC /* QWSurveyDelegate.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */,
+				2DC77BB228A1ADCF00B835CC /* QWSurveyRequest.swift in Sources */,
+				2DC77BB428A1ADCF00B835CC /* QWSurvey.swift in Sources */,
+				2DC77BBA28A1AF6700B835CC /* RCTQwarySurveyModule.m in Sources */,
+				2DC77BB528A1ADCF00B835CC /* QWSurveyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +376,7 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = org.name.qwary;
 				PRODUCT_NAME = qwary;
+				SWIFT_OBJC_BRIDGING_HEADER = "qwary/QwarySurveySDK/Qwary-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -340,6 +401,7 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = org.name.qwary;
 				PRODUCT_NAME = qwary;
+				SWIFT_OBJC_BRIDGING_HEADER = "qwary/QwarySurveySDK/Qwary-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
